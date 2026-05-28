@@ -1,0 +1,1942 @@
+[
+    {
+        "id": 0,
+        "parent_id": null,
+        "children": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "path": "A",
+        "bound_cost": 20,
+        "real_cost": 0,
+        "level": 0,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                9,
+                0,
+                6,
+                16
+            ],
+            [
+                7,
+                null,
+                0,
+                1,
+                5
+            ],
+            [
+                0,
+                0,
+                null,
+                12,
+                95
+            ],
+            [
+                9,
+                4,
+                14,
+                null,
+                0
+            ],
+            [
+                16,
+                7,
+                2,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 1,
+        "parent_id": 0,
+        "children": [
+            15,
+            16,
+            17
+        ],
+        "path": "A -> B",
+        "bound_cost": 14,
+        "real_cost": 14,
+        "level": 1,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                0,
+                1,
+                5
+            ],
+            [
+                0,
+                null,
+                null,
+                12,
+                95
+            ],
+            [
+                9,
+                null,
+                14,
+                null,
+                0
+            ],
+            [
+                16,
+                null,
+                2,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 2,
+        "parent_id": 0,
+        "children": [
+            5,
+            6,
+            7
+        ],
+        "path": "A -> C",
+        "bound_cost": 11,
+        "real_cost": 4,
+        "level": 1,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                0,
+                4
+            ],
+            [
+                null,
+                0,
+                null,
+                12,
+                95
+            ],
+            [
+                3,
+                4,
+                null,
+                null,
+                0
+            ],
+            [
+                10,
+                7,
+                null,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 3,
+        "parent_id": 0,
+        "children": [
+            8,
+            9,
+            10
+        ],
+        "path": "A -> D",
+        "bound_cost": 12,
+        "real_cost": 10,
+        "level": 1,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                7,
+                null,
+                0,
+                null,
+                5
+            ],
+            [
+                0,
+                0,
+                null,
+                null,
+                95
+            ],
+            [
+                null,
+                4,
+                14,
+                null,
+                0
+            ],
+            [
+                14,
+                5,
+                0,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 4,
+        "parent_id": 0,
+        "children": [
+            23,
+            24,
+            25
+        ],
+        "path": "A -> E",
+        "bound_cost": 24,
+        "real_cost": 20,
+        "level": 1,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                7,
+                null,
+                0,
+                1,
+                null
+            ],
+            [
+                0,
+                0,
+                null,
+                12,
+                null
+            ],
+            [
+                5,
+                0,
+                10,
+                null,
+                null
+            ],
+            [
+                null,
+                7,
+                2,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 5,
+        "parent_id": 2,
+        "children": [
+            11,
+            12
+        ],
+        "path": "A -> C -> B",
+        "bound_cost": 12,
+        "real_cost": 9,
+        "level": 2,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                0,
+                4
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                0
+            ],
+            [
+                7,
+                null,
+                null,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 6,
+        "parent_id": 2,
+        "children": [
+            32,
+            33
+        ],
+        "path": "A -> C -> D",
+        "bound_cost": 27,
+        "real_cost": 20,
+        "level": 2,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                4
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                4,
+                null,
+                null,
+                0
+            ],
+            [
+                3,
+                0,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 7,
+        "parent_id": 2,
+        "children": [],
+        "path": "A -> C -> E",
+        "bound_cost": 107,
+        "real_cost": 103,
+        "level": 2,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                0,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                0,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                6,
+                null,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 8,
+        "parent_id": 3,
+        "children": [
+            19,
+            20
+        ],
+        "path": "A -> D -> B",
+        "bound_cost": 22,
+        "real_cost": 17,
+        "level": 2,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                0,
+                null,
+                0
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                90
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                14,
+                null,
+                0,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 9,
+        "parent_id": 3,
+        "children": [],
+        "path": "A -> D -> C",
+        "bound_cost": 38,
+        "real_cost": 26,
+        "level": 2,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                0
+            ],
+            [
+                null,
+                0,
+                null,
+                null,
+                95
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                7,
+                0,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 10,
+        "parent_id": 3,
+        "children": [
+            13,
+            14
+        ],
+        "path": "A -> D -> E",
+        "bound_cost": 12,
+        "real_cost": 12,
+        "level": 2,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                7,
+                null,
+                0,
+                null,
+                null
+            ],
+            [
+                0,
+                0,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                5,
+                0,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 11,
+        "parent_id": 5,
+        "children": [
+            28
+        ],
+        "path": "A -> C -> B -> D",
+        "bound_cost": 24,
+        "real_cost": 17,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                0
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 12,
+        "parent_id": 5,
+        "children": [
+            18
+        ],
+        "path": "A -> C -> B -> E",
+        "bound_cost": 21,
+        "real_cost": 21,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 13,
+        "parent_id": 10,
+        "children": [
+            21
+        ],
+        "path": "A -> D -> E -> B",
+        "bound_cost": 22,
+        "real_cost": 22,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                0,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 14,
+        "parent_id": 10,
+        "children": [
+            22
+        ],
+        "path": "A -> D -> E -> C",
+        "bound_cost": 23,
+        "real_cost": 16,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                0,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 15,
+        "parent_id": 1,
+        "children": [],
+        "path": "A -> B -> C",
+        "bound_cost": 42,
+        "real_cost": 21,
+        "level": 2,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                0,
+                83
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                0
+            ],
+            [
+                7,
+                null,
+                null,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 16,
+        "parent_id": 1,
+        "children": [
+            29,
+            30
+        ],
+        "path": "A -> B -> D",
+        "bound_cost": 24,
+        "real_cost": 22,
+        "level": 2,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                95
+            ],
+            [
+                null,
+                null,
+                14,
+                null,
+                0
+            ],
+            [
+                14,
+                null,
+                0,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 17,
+        "parent_id": 1,
+        "children": [],
+        "path": "A -> B -> E",
+        "bound_cost": 37,
+        "real_cost": 26,
+        "level": 2,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                12,
+                null
+            ],
+            [
+                0,
+                null,
+                3,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                0,
+                0,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 18,
+        "parent_id": 12,
+        "children": [],
+        "path": "A -> C -> B -> E -> D",
+        "bound_cost": 23,
+        "real_cost": 23,
+        "level": 4,
+        "state": "Solución Completa",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 19,
+        "parent_id": 8,
+        "children": [],
+        "path": "A -> D -> B -> C",
+        "bound_cost": 128,
+        "real_cost": 24,
+        "level": 3,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                0
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 20,
+        "parent_id": 8,
+        "children": [
+            35
+        ],
+        "path": "A -> D -> B -> E",
+        "bound_cost": 29,
+        "real_cost": 29,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                0,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 21,
+        "parent_id": 13,
+        "children": [],
+        "path": "A -> D -> E -> B -> C",
+        "bound_cost": 29,
+        "real_cost": 29,
+        "level": 4,
+        "state": "Solución Completa",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 22,
+        "parent_id": 14,
+        "children": [],
+        "path": "A -> D -> E -> C -> B",
+        "bound_cost": 21,
+        "real_cost": 21,
+        "level": 4,
+        "state": "Solución Completa",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 23,
+        "parent_id": 4,
+        "children": [],
+        "path": "A -> E -> B",
+        "bound_cost": 36,
+        "real_cost": 30,
+        "level": 2,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                0,
+                0,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                11,
+                null
+            ],
+            [
+                0,
+                null,
+                5,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 24,
+        "parent_id": 4,
+        "children": [
+            37,
+            38
+        ],
+        "path": "A -> E -> C",
+        "bound_cost": 30,
+        "real_cost": 24,
+        "level": 2,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                1,
+                null,
+                null,
+                0,
+                null
+            ],
+            [
+                null,
+                0,
+                null,
+                12,
+                null
+            ],
+            [
+                0,
+                0,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 25,
+        "parent_id": 4,
+        "children": [
+            26,
+            27
+        ],
+        "path": "A -> E -> D",
+        "bound_cost": 22,
+        "real_cost": 22,
+        "level": 2,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                7,
+                null,
+                0,
+                null,
+                null
+            ],
+            [
+                0,
+                0,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                0,
+                10,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 26,
+        "parent_id": 25,
+        "children": [
+            36
+        ],
+        "path": "A -> E -> D -> B",
+        "bound_cost": 29,
+        "real_cost": 29,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                0,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 27,
+        "parent_id": 25,
+        "children": [],
+        "path": "A -> E -> D -> C",
+        "bound_cost": 45,
+        "real_cost": 38,
+        "level": 3,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                0,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 28,
+        "parent_id": 11,
+        "children": [],
+        "path": "A -> C -> B -> D -> E",
+        "bound_cost": 19,
+        "real_cost": 19,
+        "level": 4,
+        "state": "Solución Completa",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 29,
+        "parent_id": 16,
+        "children": [],
+        "path": "A -> B -> D -> C",
+        "bound_cost": 147,
+        "real_cost": 38,
+        "level": 3,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                0
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 30,
+        "parent_id": 16,
+        "children": [
+            31
+        ],
+        "path": "A -> B -> D -> E",
+        "bound_cost": 24,
+        "real_cost": 24,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                0,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 31,
+        "parent_id": 30,
+        "children": [],
+        "path": "A -> B -> D -> E -> C",
+        "bound_cost": 28,
+        "real_cost": 28,
+        "level": 4,
+        "state": "Solución Completa",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 32,
+        "parent_id": 6,
+        "children": [],
+        "path": "A -> C -> D -> B",
+        "bound_cost": 34,
+        "real_cost": 27,
+        "level": 3,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                0
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 33,
+        "parent_id": 6,
+        "children": [
+            34
+        ],
+        "path": "A -> C -> D -> E",
+        "bound_cost": 22,
+        "real_cost": 22,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                0,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 34,
+        "parent_id": 33,
+        "children": [],
+        "path": "A -> C -> D -> E -> B",
+        "bound_cost": 32,
+        "real_cost": 32,
+        "level": 4,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 35,
+        "parent_id": 20,
+        "children": [],
+        "path": "A -> D -> B -> E -> C",
+        "bound_cost": 33,
+        "real_cost": 33,
+        "level": 4,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 36,
+        "parent_id": 26,
+        "children": [],
+        "path": "A -> E -> D -> B -> C",
+        "bound_cost": 36,
+        "real_cost": 36,
+        "level": 4,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 37,
+        "parent_id": 24,
+        "children": [
+            39
+        ],
+        "path": "A -> E -> C -> B",
+        "bound_cost": 29,
+        "real_cost": 29,
+        "level": 3,
+        "state": "Expandido",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                0,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 38,
+        "parent_id": 24,
+        "children": [],
+        "path": "A -> E -> C -> D",
+        "bound_cost": 41,
+        "real_cost": 40,
+        "level": 3,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                0,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                0,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "id": 39,
+        "parent_id": 37,
+        "children": [],
+        "path": "A -> E -> C -> B -> D",
+        "bound_cost": 37,
+        "real_cost": 37,
+        "level": 4,
+        "state": "Podado por Cota",
+        "reduced_matrix": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    }
+]

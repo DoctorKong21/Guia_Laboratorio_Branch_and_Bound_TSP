@@ -1,0 +1,302 @@
+digraph G {
+  node [shape=box,fontname=Helvetica];
+  node0 [label="id=0
+path=[0]
+bound=21.0
+real=0.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node1 [label="id=1
+path=[0, 1]
+bound=14.0
+real=14.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node0 -> node1;
+  node2 [label="id=2
+path=[0, 2]
+bound=10.0
+real=4.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node0 -> node2;
+  node3 [label="id=3
+path=[0, 3]
+bound=12.0
+real=10.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node0 -> node3;
+  node4 [label="id=4
+path=[0, 4]
+bound=23.0
+real=20.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node0 -> node4;
+  node5 [label="id=5
+path=[0, 4, 1]
+bound=36.0
+real=30.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node4 -> node5;
+  node6 [label="id=6
+path=[0, 4, 2]
+bound=30.0
+real=24.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node4 -> node6;
+  node7 [label="id=7
+path=[0, 4, 3]
+bound=22.0
+real=22.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node4 -> node7;
+  node8 [label="id=8
+path=[0, 4, 3, 1]
+bound=29.0
+real=29.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node7 -> node8;
+  node9 [label="id=9
+path=[0, 4, 3, 2]
+bound=44.0
+real=38.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node7 -> node9;
+  node10 [label="id=10
+path=[0, 4, 3, 2, 1]
+bound=43.0
+real=43.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node9 -> node10;
+  node11 [label="id=11
+path=[0, 4, 3, 1, 2]
+bound=36.0
+real=36.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node8 -> node11;
+  node12 [label="id=12
+path=[0, 4, 2, 1]
+bound=29.0
+real=29.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node6 -> node12;
+  node13 [label="id=13
+path=[0, 4, 2, 3]
+bound=40.0
+real=40.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node6 -> node13;
+  node14 [label="id=14
+path=[0, 4, 2, 1, 3]
+bound=37.0
+real=37.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node12 -> node14;
+  node15 [label="id=15
+path=[0, 4, 1, 2]
+bound=49.0
+real=37.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node5 -> node15;
+  node16 [label="id=16
+path=[0, 4, 1, 3]
+bound=44.0
+real=38.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node5 -> node16;
+  node17 [label="id=17
+path=[0, 3, 1]
+bound=17.0
+real=17.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node3 -> node17;
+  node18 [label="id=18
+path=[0, 3, 2]
+bound=36.0
+real=26.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node3 -> node18;
+  node19 [label="id=19
+path=[0, 3, 4]
+bound=12.0
+real=12.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node3 -> node19;
+  node20 [label="id=20
+path=[0, 3, 4, 1]
+bound=22.0
+real=22.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node19 -> node20;
+  node21 [label="id=21
+path=[0, 3, 4, 2]
+bound=22.0
+real=16.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node19 -> node21;
+  node22 [label="id=22
+path=[0, 3, 4, 2, 1]
+bound=21.0
+real=21.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node21 -> node22;
+  node23 [label="id=23
+path=[0, 3, 4, 1, 2]
+bound=29.0
+real=29.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node20 -> node23;
+  node24 [label="id=24
+path=[0, 3, 1, 2]
+bound=38.0
+real=24.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node17 -> node24;
+  node25 [label="id=25
+path=[0, 3, 1, 4]
+bound=29.0
+real=29.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node17 -> node25;
+  node26 [label="id=26
+path=[0, 3, 1, 4, 2]
+bound=33.0
+real=33.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node25 -> node26;
+  node27 [label="id=27
+path=[0, 2, 1]
+bound=12.0
+real=9.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node2 -> node27;
+  node28 [label="id=28
+path=[0, 2, 3]
+bound=26.0
+real=20.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node2 -> node28;
+  node29 [label="id=29
+path=[0, 2, 4]
+bound=10.0
+real=7.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node2 -> node29;
+  node30 [label="id=30
+path=[0, 2, 4, 1]
+bound=17.0
+real=17.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node29 -> node30;
+  node31 [label="id=31
+path=[0, 2, 4, 3]
+bound=9.0
+real=9.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node29 -> node31;
+  node32 [label="id=32
+path=[0, 2, 4, 3, 1]
+bound=16.0
+real=16.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node31 -> node32;
+  node33 [label="id=33
+path=[0, 2, 4, 1, 3]
+bound=25.0
+real=25.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node30 -> node33;
+  node34 [label="id=34
+path=[0, 2, 3, 1]
+bound=36.0
+real=27.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node28 -> node34;
+  node35 [label="id=35
+path=[0, 2, 3, 4]
+bound=22.0
+real=22.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node28 -> node35;
+  node36 [label="id=36
+path=[0, 2, 3, 4, 1]
+bound=32.0
+real=32.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node35 -> node36;
+  node37 [label="id=37
+path=[0, 2, 1, 3]
+bound=25.0
+real=17.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node27 -> node37;
+  node38 [label="id=38
+path=[0, 2, 1, 4]
+bound=21.0
+real=21.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node27 -> node38;
+  node39 [label="id=39
+path=[0, 2, 1, 4, 3]
+bound=23.0
+real=23.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node38 -> node39;
+  node40 [label="id=40
+path=[0, 2, 1, 3, 4]
+bound=19.0
+real=19.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node37 -> node40;
+  node41 [label="id=41
+path=[0, 1, 2]
+bound=29.0
+real=21.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node1 -> node41;
+  node42 [label="id=42
+path=[0, 1, 3]
+bound=24.0
+real=22.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node1 -> node42;
+  node43 [label="id=43
+path=[0, 1, 4]
+bound=36.0
+real=26.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node1 -> node43;
+  node44 [label="id=44
+path=[0, 1, 3, 2]
+bound=52.0
+real=38.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node42 -> node44;
+  node45 [label="id=45
+path=[0, 1, 3, 4]
+bound=24.0
+real=24.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node42 -> node45;
+  node46 [label="id=46
+path=[0, 1, 3, 4, 2]
+bound=28.0
+real=28.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node45 -> node46;
+  node47 [label="id=47
+path=[0, 1, 2, 3]
+bound=45.0
+real=37.0
+state=Podado por Cota", style=filled, fillcolor=red];
+  node41 -> node47;
+  node48 [label="id=48
+path=[0, 1, 2, 4]
+bound=24.0
+real=24.0
+state=Expandido", style=filled, fillcolor=lightblue];
+  node41 -> node48;
+  node49 [label="id=49
+path=[0, 1, 2, 4, 3]
+bound=26.0
+real=26.0
+state=Solución Completa", style=filled, fillcolor=green];
+  node48 -> node49;
+}

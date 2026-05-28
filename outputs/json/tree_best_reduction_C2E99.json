@@ -1,0 +1,2257 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "parent_id": null,
+            "path": [
+                0
+            ],
+            "bound_cost": 20,
+            "real_cost": 0.0,
+            "level": 0,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9082596,
+            "children_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    9,
+                    0,
+                    6,
+                    16
+                ],
+                [
+                    7,
+                    null,
+                    0,
+                    1,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    null,
+                    12,
+                    95
+                ],
+                [
+                    9,
+                    4,
+                    14,
+                    null,
+                    0
+                ],
+                [
+                    17,
+                    7,
+                    2,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 1,
+            "parent_id": 0,
+            "path": [
+                0,
+                1
+            ],
+            "bound_cost": 14.0,
+            "real_cost": 14.0,
+            "level": 1,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.908278,
+            "children_ids": [
+                15,
+                16,
+                17
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    0,
+                    1,
+                    5
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    12,
+                    95
+                ],
+                [
+                    9,
+                    null,
+                    14,
+                    null,
+                    0
+                ],
+                [
+                    17,
+                    null,
+                    2,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "parent_id": 0,
+            "path": [
+                0,
+                2
+            ],
+            "bound_cost": 11.0,
+            "real_cost": 4.0,
+            "level": 1,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.908393,
+            "children_ids": [
+                5,
+                6,
+                7
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    0,
+                    4
+                ],
+                [
+                    null,
+                    0,
+                    null,
+                    12,
+                    95
+                ],
+                [
+                    3,
+                    4,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    11,
+                    7,
+                    null,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 3,
+            "parent_id": 0,
+            "path": [
+                0,
+                3
+            ],
+            "bound_cost": 12.0,
+            "real_cost": 10.0,
+            "level": 1,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9084983,
+            "children_ids": [
+                8,
+                9,
+                10
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    7,
+                    null,
+                    0,
+                    null,
+                    5
+                ],
+                [
+                    0,
+                    0,
+                    null,
+                    null,
+                    95
+                ],
+                [
+                    null,
+                    4,
+                    14,
+                    null,
+                    0
+                ],
+                [
+                    15,
+                    5,
+                    0,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 4,
+            "parent_id": 0,
+            "path": [
+                0,
+                4
+            ],
+            "bound_cost": 24.0,
+            "real_cost": 20.0,
+            "level": 1,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.908589,
+            "children_ids": [
+                23,
+                24,
+                25
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    7,
+                    null,
+                    0,
+                    1,
+                    null
+                ],
+                [
+                    0,
+                    0,
+                    null,
+                    12,
+                    null
+                ],
+                [
+                    5,
+                    0,
+                    10,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    7,
+                    2,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 5,
+            "parent_id": 2,
+            "path": [
+                0,
+                2,
+                1
+            ],
+            "bound_cost": 12.0,
+            "real_cost": 9.0,
+            "level": 2,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9086552,
+            "children_ids": [
+                11,
+                12
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    0,
+                    4
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    8,
+                    null,
+                    null,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 6,
+            "parent_id": 2,
+            "path": [
+                0,
+                2,
+                3
+            ],
+            "bound_cost": 27.0,
+            "real_cost": 20.0,
+            "level": 2,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.908708,
+            "children_ids": [
+                32,
+                33
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    4
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    4,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    4,
+                    0,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 7,
+            "parent_id": 2,
+            "path": [
+                0,
+                2,
+                4
+            ],
+            "bound_cost": 107.0,
+            "real_cost": 103.0,
+            "level": 2,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9087832,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    0,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    0,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    6,
+                    null,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 8,
+            "parent_id": 3,
+            "path": [
+                0,
+                3,
+                1
+            ],
+            "bound_cost": 22.0,
+            "real_cost": 17.0,
+            "level": 2,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9088743,
+            "children_ids": [
+                19,
+                20
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    0,
+                    null,
+                    0
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    90
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    15,
+                    null,
+                    0,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 9,
+            "parent_id": 3,
+            "path": [
+                0,
+                3,
+                2
+            ],
+            "bound_cost": 38.0,
+            "real_cost": 26.0,
+            "level": 2,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9089308,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    null,
+                    0,
+                    null,
+                    null,
+                    95
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    8,
+                    0,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 10,
+            "parent_id": 3,
+            "path": [
+                0,
+                3,
+                4
+            ],
+            "bound_cost": 12.0,
+            "real_cost": 12.0,
+            "level": 2,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9089866,
+            "children_ids": [
+                13,
+                14
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    7,
+                    null,
+                    0,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    0,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    5,
+                    0,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 11,
+            "parent_id": 5,
+            "path": [
+                0,
+                2,
+                1,
+                3
+            ],
+            "bound_cost": 25.0,
+            "real_cost": 17.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9090445,
+            "children_ids": [
+                31
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 12,
+            "parent_id": 5,
+            "path": [
+                0,
+                2,
+                1,
+                4
+            ],
+            "bound_cost": 21.0,
+            "real_cost": 21.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9090903,
+            "children_ids": [
+                18
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 13,
+            "parent_id": 10,
+            "path": [
+                0,
+                3,
+                4,
+                1
+            ],
+            "bound_cost": 22.0,
+            "real_cost": 22.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9091382,
+            "children_ids": [
+                21
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    0,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 14,
+            "parent_id": 10,
+            "path": [
+                0,
+                3,
+                4,
+                2
+            ],
+            "bound_cost": 23.0,
+            "real_cost": 16.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9091833,
+            "children_ids": [
+                22
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    0,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 15,
+            "parent_id": 1,
+            "path": [
+                0,
+                1,
+                2
+            ],
+            "bound_cost": 42.0,
+            "real_cost": 21.0,
+            "level": 2,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9092314,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    0,
+                    83
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    8,
+                    null,
+                    null,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 16,
+            "parent_id": 1,
+            "path": [
+                0,
+                1,
+                3
+            ],
+            "bound_cost": 24.0,
+            "real_cost": 22.0,
+            "level": 2,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9092927,
+            "children_ids": [
+                28,
+                29
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    95
+                ],
+                [
+                    null,
+                    null,
+                    14,
+                    null,
+                    0
+                ],
+                [
+                    15,
+                    null,
+                    0,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 17,
+            "parent_id": 1,
+            "path": [
+                0,
+                1,
+                4
+            ],
+            "bound_cost": 37.0,
+            "real_cost": 26.0,
+            "level": 2,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9093773,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    12,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    3,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    0,
+                    0,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 18,
+            "parent_id": 12,
+            "path": [
+                0,
+                2,
+                1,
+                4,
+                3
+            ],
+            "bound_cost": 23.0,
+            "real_cost": 23.0,
+            "level": 4,
+            "state": "Soluci\u00f3n Completa",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9094355,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 19,
+            "parent_id": 8,
+            "path": [
+                0,
+                3,
+                1,
+                2
+            ],
+            "bound_cost": 129.0,
+            "real_cost": 24.0,
+            "level": 3,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9094834,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 20,
+            "parent_id": 8,
+            "path": [
+                0,
+                3,
+                1,
+                4
+            ],
+            "bound_cost": 29.0,
+            "real_cost": 29.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9095294,
+            "children_ids": [
+                35
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    0,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 21,
+            "parent_id": 13,
+            "path": [
+                0,
+                3,
+                4,
+                1,
+                2
+            ],
+            "bound_cost": 29.0,
+            "real_cost": 29.0,
+            "level": 4,
+            "state": "Soluci\u00f3n Completa",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.909583,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 22,
+            "parent_id": 14,
+            "path": [
+                0,
+                3,
+                4,
+                2,
+                1
+            ],
+            "bound_cost": 21.0,
+            "real_cost": 21.0,
+            "level": 4,
+            "state": "Soluci\u00f3n Completa",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9096344,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 23,
+            "parent_id": 4,
+            "path": [
+                0,
+                4,
+                1
+            ],
+            "bound_cost": 36.0,
+            "real_cost": 30.0,
+            "level": 2,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.909802,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    0,
+                    0,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    11,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    5,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 24,
+            "parent_id": 4,
+            "path": [
+                0,
+                4,
+                2
+            ],
+            "bound_cost": 30.0,
+            "real_cost": 24.0,
+            "level": 2,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.909916,
+            "children_ids": [
+                37,
+                38
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    1,
+                    null,
+                    null,
+                    0,
+                    null
+                ],
+                [
+                    null,
+                    0,
+                    null,
+                    12,
+                    null
+                ],
+                [
+                    0,
+                    0,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 25,
+            "parent_id": 4,
+            "path": [
+                0,
+                4,
+                3
+            ],
+            "bound_cost": 22.0,
+            "real_cost": 22.0,
+            "level": 2,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9099653,
+            "children_ids": [
+                26,
+                27
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    7,
+                    null,
+                    0,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    0,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    0,
+                    10,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 26,
+            "parent_id": 25,
+            "path": [
+                0,
+                4,
+                3,
+                1
+            ],
+            "bound_cost": 29.0,
+            "real_cost": 29.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9100182,
+            "children_ids": [
+                36
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    0,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 27,
+            "parent_id": 25,
+            "path": [
+                0,
+                4,
+                3,
+                2
+            ],
+            "bound_cost": 45.0,
+            "real_cost": 38.0,
+            "level": 3,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9100785,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    0,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 28,
+            "parent_id": 16,
+            "path": [
+                0,
+                1,
+                3,
+                2
+            ],
+            "bound_cost": 148.0,
+            "real_cost": 38.0,
+            "level": 3,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9102209,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 29,
+            "parent_id": 16,
+            "path": [
+                0,
+                1,
+                3,
+                4
+            ],
+            "bound_cost": 24.0,
+            "real_cost": 24.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.910334,
+            "children_ids": [
+                30
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    0,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 30,
+            "parent_id": 29,
+            "path": [
+                0,
+                1,
+                3,
+                4,
+                2
+            ],
+            "bound_cost": 28.0,
+            "real_cost": 28.0,
+            "level": 4,
+            "state": "Soluci\u00f3n Completa",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9104257,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 31,
+            "parent_id": 11,
+            "path": [
+                0,
+                2,
+                1,
+                3,
+                4
+            ],
+            "bound_cost": 19.0,
+            "real_cost": 19.0,
+            "level": 4,
+            "state": "Soluci\u00f3n Completa",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9105144,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 32,
+            "parent_id": 6,
+            "path": [
+                0,
+                2,
+                3,
+                1
+            ],
+            "bound_cost": 35.0,
+            "real_cost": 27.0,
+            "level": 3,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9105902,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 33,
+            "parent_id": 6,
+            "path": [
+                0,
+                2,
+                3,
+                4
+            ],
+            "bound_cost": 22.0,
+            "real_cost": 22.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.910727,
+            "children_ids": [
+                34
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    0,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 34,
+            "parent_id": 33,
+            "path": [
+                0,
+                2,
+                3,
+                4,
+                1
+            ],
+            "bound_cost": 32.0,
+            "real_cost": 32.0,
+            "level": 4,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.910809,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 35,
+            "parent_id": 20,
+            "path": [
+                0,
+                3,
+                1,
+                4,
+                2
+            ],
+            "bound_cost": 33.0,
+            "real_cost": 33.0,
+            "level": 4,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9109778,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 36,
+            "parent_id": 26,
+            "path": [
+                0,
+                4,
+                3,
+                1,
+                2
+            ],
+            "bound_cost": 36.0,
+            "real_cost": 36.0,
+            "level": 4,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9111185,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 37,
+            "parent_id": 24,
+            "path": [
+                0,
+                4,
+                2,
+                1
+            ],
+            "bound_cost": 29.0,
+            "real_cost": 29.0,
+            "level": 3,
+            "state": "Expandido",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9112134,
+            "children_ids": [
+                39
+            ],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    0,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 38,
+            "parent_id": 24,
+            "path": [
+                0,
+                4,
+                2,
+                3
+            ],
+            "bound_cost": 41.0,
+            "real_cost": 40.0,
+            "level": 3,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.9112587,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    0,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    0,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        },
+        {
+            "id": 39,
+            "parent_id": 37,
+            "path": [
+                0,
+                4,
+                2,
+                1,
+                3
+            ],
+            "bound_cost": 37.0,
+            "real_cost": 37.0,
+            "level": 4,
+            "state": "Podado por Cota",
+            "strategy": "best",
+            "bound_type": "reduction",
+            "timestamp": 1780008936.911344,
+            "children_ids": [],
+            "reduced_matrix": [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        }
+    ],
+    "stats": {
+        "generated": 224,
+        "expanded": 180,
+        "pruned_by_cota": 59,
+        "pruned_by_inviabilidad": 0,
+        "completed": 43
+    }
+}
