@@ -1,14 +1,8 @@
-
-# =========================
-# bnb_tsp.py
-# =========================
-
 import heapq
 import json
 import logging
 from collections import deque
 from copy import deepcopy
-from platform import node
 from typing import List, Optional
 
 INF = 10**9
@@ -557,6 +551,10 @@ def export_dot(filename, nodes):
 
     with open(filename, "w", encoding="utf-8") as f:
 
+        f.write('ratio=compress;\n')
+
+        f.write('size="20,20";\n')
+        
         f.write("digraph TSP_Tree {\n")
 
         f.write('rankdir=TB;\n')
