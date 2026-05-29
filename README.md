@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto implementa una solución al Problema del Viajante de Comercio (TSP) utilizando la técnica de Ramificación y Poda (Branch & Bound), incorporando estrategias de exploración FIFO, LIFO y Best-First.
+Este proyecto implementa el Problema del Viajante de Comercio (TSP) utilizando la técnica de Ramificación y Poda (Branch & Bound), incorporando estrategias de exploración FIFO, LIFO y Best-First.
 
 Exportando cada nodo generado en formato JSON y Graphviz DOT, permitiendo visualizar el comportamiento de la poda y el impacto de distintas funciones de acotación.
 
