@@ -81,6 +81,3 @@ Archivo:
 
 ---
 
-## Autor
-
-Trabajo de laboratorio – Diseño y Análisis de Algoritmos
